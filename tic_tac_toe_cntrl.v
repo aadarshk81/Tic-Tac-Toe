@@ -1,6 +1,6 @@
-module tic_tac_toe_cntrl(clk,rst,play,ill,win,nospc,playX_en,play0_en);
+module tic_tac_toe_cntrl(clk,rst,play,win,nospc,playX_en,play0_en);
 
-	input clk,rst,play,ill,nospc;
+	input clk,rst,play,nospc;
 	input [1:0] win;
 	output reg playX_en,play0_en;
 
@@ -15,7 +15,7 @@ module tic_tac_toe_cntrl(clk,rst,play,ill,win,nospc,playX_en,play0_en);
 		cs<=ns;
 	end
 
-	always @ (play,ill,nospc,win)
+	always @ (play,nospc,win)
 	begin
 		case(cs)
 			IDLE:
