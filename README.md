@@ -9,3 +9,6 @@ For making the game there are different modules which we need and they are initi
 * **Control Unit-** Made using Moore Machine. Controls all the required signals for state changes. Following is the State diagram of the FSM of Control Unit.
 ![FSM](https://user-images.githubusercontent.com/46645257/89535666-5974e500-d814-11ea-8a5b-fb3c23eb4c4f.png)
 It has 4 states, 2 output signals namely PLAYX_EN, PLAY0_EN, and controlled using input signals NOSPACE,WIN,PLAY.
+
+
+![output](https://user-images.githubusercontent.com/46645257/89537761-6515db00-d817-11ea-8ad4-7d9fbde707f2.png)
