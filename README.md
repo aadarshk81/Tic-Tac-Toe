@@ -10,5 +10,5 @@ For making the game there are different modules which we need and they are initi
 ![FSM](https://user-images.githubusercontent.com/46645257/89535666-5974e500-d814-11ea-8a5b-fb3c23eb4c4f.png)
 It has 4 states, 2 output signals namely PLAYX_EN, PLAY0_EN, and controlled using input signals NOSPACE,WIN,PLAY.
 
-
+Here is an test output corresponding to the testbench. In this PLAY0 player wins as he selected positions 1,2,3.
 ![output](https://user-images.githubusercontent.com/46645257/89537761-6515db00-d817-11ea-8ad4-7d9fbde707f2.png)
